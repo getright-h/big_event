@@ -81,6 +81,7 @@ window.addEventListener('load', function () {
     //登录发送ajax并获取token
 
     $('#log-form').submit(function (e) {
+        console.log(1);
         e.preventDefault();
         $.ajax({
             url: '/api/login',
