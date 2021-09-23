@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(../images/login_bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+.logAndRegBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 310px;
+    background: #fff;
+    
+}
+
+.title{
+    height: 60px;
+    background: url(../images/login_title.png) no-repeat center;
+}
+
+.reg-box{
+    display: none;
+}
+
+.layui-form{
+    padding: 20px;
+}
+
+#link_reg,#link_log{
+    display: flex;
+    justify-content: end;
+}
