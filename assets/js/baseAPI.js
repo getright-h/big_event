@@ -1,5 +1,5 @@
-//每次调用ajax发送请求时，jq都会调用此函数，opitons可以拿到我们提供的配置对象
 $.ajaxPrefilter(function (options) {
+    //每次调用ajax发送请求时，jq都会调用此函数，opitons可以拿到我们提供的配置对象
     options.url = 'http://api-breakingnews-web.itheima.net' + options.url;
     //判断需要验证的请求头,包含my字段的为需要验证
     if (options.url.indexOf('/my/') !== -1) {
