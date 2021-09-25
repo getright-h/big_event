@@ -2,7 +2,7 @@ $(function () {
     let layer = layui.layer;
     let form = layui.form;
     initCate();
-    getSession();
+    // getSession();
 
     //废案
     // let sessionId = null;
